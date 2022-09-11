@@ -1,0 +1,23 @@
+ACLs RouterSPublicos:
+----------------------------------------------------------------
+
+interfaz Fa0/0 RouterSPublicos sentido in:
+
+access-list 100 permit tcp any gt 1023 host 172.16.80.20 eq 110
+access-list 100 permit tcp any gt 1023 host 172.16.80.20 eq 587
+access-list 100 permit tcp any gt 1023 host 172.16.80.22 eq 443
+access-list 100 permit tcp any gt 1023 host 172.16.80.21 eq 53
+access-list 100 permit udp any gt 1023 host 172.16.80.21 eq 53
+
+interfaz Fa0/1 RouterSPublicos sentido in:
+
+access-list 101 permit tcp host 172.16.80.20 eq 110 any gt 1023
+access-list 101 permit tcp host 172.16.80.20 eq 587 any gt 1023
+access-list 101 permit tcp host 172.16.80.22 eq 443 any gt 1023
+access-list 101 permit tcp host 172.16.80.21 eq 53 any gt 1023
+access-list 101 permit udp host 172.16.80.21 eq 53 any gt 1023
+
+
+
+
+

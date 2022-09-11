@@ -1,0 +1,44 @@
+ACL para los servidores privados (versión con poco sentido):
+
+access-list 100 deny ip 192.10.1.0 0.0.0.255 172.16.70.0 0.0.0.255
+access-list 100 deny ip 192.10.2.0 0.0.0.255 172.16.70.0 0.0.0.255
+access-list 100 deny ip 192.10.3.0 0.0.0.255 172.16.70.0 0.0.0.255
+access-list 100 permit ip any any
+
+ACL para los servidores privados (versión denegar por defecto):
+
+access-list 100 permit ip any 172.16.10.0 0.0.0.255
+access-list 100 permit ip any 172.16.20.0 0.0.0.255
+access-list 100 permit ip any 172.16.30.0 0.0.0.255
+access-list 100 permit ip any 172.16.40.0 0.0.0.255
+access-list 100 permit ip any 172.16.60.0 0.0.0.255
+access-list 100 permit ip any 172.16.80.0 0.0.0.255
+access-list 100 permit ip any 172.16.90.0 0.0.0.255
+
+
+access-list 101 permit ip 172.16.10.0 0.0.0.255 any
+access-list 101 permit ip 172.16.20.0 0.0.0.255 any
+access-list 101 permit ip 172.16.30.0 0.0.0.255 any
+access-list 101 permit ip 172.16.40.0 0.0.0.255 any
+access-list 101 permit ip 172.16.60.0 0.0.0.255 any
+access-list 101 permit ip 172.16.80.0 0.0.0.255 any
+access-list 101 permit ip 172.16.90.0 0.0.0.255 any
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACL para el servidor medidas sensores:
+
+access-list 101 permit ip 172.16.30.0 0.0.0.255 172.16.70.22 0.0.0.0
+access-list 101 permit ip 172.16.40.0 0.0.0.255 172.16.70.22 0.0.0.0
+access-list 101 deny any 172.16.70.22 0.0.0.0
+

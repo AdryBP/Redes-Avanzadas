@@ -1,0 +1,20 @@
+Objetivos de hoy:
+
+	1-. Configurar SNMP en los 2 MLS + el router RouterSpublicos. [Completado]
+	2-. Configurar el servidor Syslog. [Completado]
+	3-. Configurar BGP entre operadores. [Completado]
+	4-. Enlace de fibra entre operador ABC y Red XYZ. [Completado]
+	5-. Configurar router + server Netflow. [Completado]
+
+
+
+
+
+
+
+
+
+
+
+	?-. Configurar el servidor de medidas de sensores
+	

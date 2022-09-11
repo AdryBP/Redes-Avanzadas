@@ -1,0 +1,53 @@
+Hola Adrián,
+
+Paso a responderte:
+
+1. Es información que tienes que utilizar para el diseño, para seleccionar los elementos correspondientes. No hace falta que lo representes de ninguna otra forma.
+
+2. Efectivamente, sólo se tiene que indicar en la memoria de la práctica.
+
+3. Así es, las redes tienen que estar dimensionadas para poder asignar direcciones ip, al menos, a los equipos que se indican. Aunque siempre se tiene que dejar un margen para el crecimiento.
+
+4. Puedes elegir entre VLAN e IPSEC, aunque si eliges IPSEC tendrías que definir redes independientes en cada sede para redes del mismo perfil e interconectarlas por capa 3. Por otro lado, a través de VLAN, podrías disponer de mayor eficiencia del ancho de banda. En caulquier caso, lo consideraré válido tanto si lo haces de una forma como de la otra.
+
+5. Correcto. Cada empresa debe gestionar su propia red.
+
+6. Así es.
+
+7. Si utilizas una versión superior de CPT que implemente los sensores, podrás jugar con ellos, sin embargo, no es necesario, simplemente que se tenga en cuenta en el diseño y se represente de alguna forma.
+
+Igualmente, BUENAS FIESTAS !!!
+
+Salud,
+
+Toni
+Referències
+Imatge Bennásar Polzin, Adrián
+Bennásar Polzin, Adrián28 desembre 2021, 13:56
+
+Hola, muchas gracias por la respuesta a mi anterior correo sobre esta práctica. Tras desviarme haciendo más prácticas de otras asignaturas, he retomado la práctica de redes avanzadas lo antes posible.
+
+Tras leer las respuestas del anterior correo y analizar la practica en mas profundidad y razonar cosas, escribo una serie de dudas que no quería mezclar con el anterior correo y también nuevas dudas que me han surgido. Intentaré ordenarlas para que el correo sea lo menos tedioso posible:
+
+    Las distancias, deben representarse de alguna manera en CPT? O es solo informacion de relleno para dar una idea de la dimensión de el entorno imaginario sobre el que desplegamos estas redes?
+
+    En la red XYZ, para la solicitud de una red ip pública al operador ABC, se debe hacer de manera simulada (Indicandolo en la memoria de la práctica), al igual que la solicitud que la red ABC hace a un organismo?
+
+    De nuevo relacionado con la solicitud que debe hacer la red XYZ de una red ip pública al operador ABC, aunque por simplificación el enunciado indica que solo pongamos 2 ordenadores/perfil en cada edificio, se debería solicitar una red que permita direccionar al menos 91 equipos finales (33 + 58 puestos de trabajo) y los servidores del data center (web, correo, etc) ?
+
+    En el enunciado, cuando en el apartado  Red de comunicaciones de XYZ dice que las redes de las 2 sedes(edificios) deben estar interconectadas a través de un enlace privado contratado al operador ABC, ¿este enlace privado consiste en un VPN (Virtual Private Network) como el que hemos estudiado este curso en una de las clases prácticas? O se refiere a otra cosa totalmente difetente? Si es algo diferente me podrías dar una pista?
+
+    En el apartado – Requisitos comunes para ambas redes, veo que se habla de implementar SNMP, un servidor Syslog centralizado y un servidor Netflow. ¿Estas 3 cosas (SNMP, syslog, Netflow) deben implementarse tanto en la red ABC como en la red XYZ ya que el apartado dice que son requisitos comunes para AMBAS redes? Es decir, en total habrá 2 servidores Syslog y 2 servidores Netflow en nuestro fichero CPT?
+
+    En el apartado – Red de comunicaciones ABC, en el punto 5 y en el punto 6 dice:
+          - “Se requiere alta disponibilidad para ofrecer servicios de alta calidad”.
+
+               -  “para los enlaces entre conmutadores se ofrezca un ancho de banda mínimo de 2Gbps y tiempo de recuperación mínimo (menor a 1 segundo)”.
+
+           Para conseguir la disponibilidad y el ancho de banda mínimo de 2Gbps, deberíamos usar el concepto “Link Aggregation” estudiado en el ejercicio 3 de la parte práctica de         la asignatura?
+
+          Por otra parte, qué recomendarías para el objetivo de el tiempo de recuperación mínimo? Se puede conseguir también con Link Aggregation?
+
+      7. Creo que la versión de CPT 6.2 que está en el apartado Recursos de el aula digital y que he usado hasta ahora, no incluye los elementos necesarios para realizar la parte de la práctica relacionada con sensores (elementos como “MCU”, “Temperature Sensor”, “IOT Custom Cable”, “Heating Element”, “Air cooler”, etc). Esta serie de elementos son los que he visto investigando en internet que se usan para hacer simulaciones relacionadas con sensores. Entonces, recomendarías que nos instalemos una versión mas avanzada de CPT que sí incluya estos elementos?
+
+Saludos, Buenas fiestas y Feliz Navidad.

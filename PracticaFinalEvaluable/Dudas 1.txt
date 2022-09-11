@@ -1,0 +1,51 @@
+Hola Adrián,
+
+Te contesto a las preguntas:
+
+1. Efectivamente, para la red corporativa de la empresa XYZ lo correcto es hacer uso de esa metodología de diseño, aunque el tamaño de la red de la empresa del ejercicio no dé para lucirse mucho. No quería excederme.
+
+2. Eso ha de ir en consonancia con el número de usuarios, su distribución y el tipo de conmutadores que se utilizan. Por otro lado, también hay que tener en cuenta los servidores y otros elementos de la red que tengan que instalarse. Finalmente, siempre se debe dejar un % para crecimiento a corto plazo.
+
+3. Efectivamente
+
+4. Eso es.
+
+5. Sí, bastaría con utilizar un router con ACLs
+
+6. Una simplificación, simplemente lo necesario para que exista conectividad a unos sistemas que sean representativos de Internet. Algo mínimo y sencillo en esta parte.
+
+7.Bastaría con seleccionar los elementos que queramos que formen parte de la nube y crear un cluster, pero no pasa nada si simplemente se deja indicado, sin que quede representado por una nube.
+
+Ok, no dudes en enviarme un correo con las preguntas que te vayan surgiendo.
+
+Salud y Buenas Fiestas.
+
+Toni
+Referències
+Imatge Bennásar Polzin, Adrián
+Bennásar Polzin, Adrián21 desembre 2021, 17:05
+
+Hola, he estado intentando avanzar en la practica final de redes avanzadas y me esta costando bastante.
+
+De momento me he centrado en analizar el enunciado e intentar montar la Red XYZ.
+
+Tengo una serie de dudas:
+   1. ¿Sería correcto utilizar la estructura Core Layer - Distribution Layer - Access Layer para la red XYZ? Es la estructura que he visto en el PDF "Model genèric d'arquitectura de xarxa i equipament LAN". También he encontrado esta estructura por internet al investigar maneras comunes de estructurar la red de una organización.
+
+   2. Para representar que el edificio1 tiene una sola planta y el edificio2 tiene 2 plantas cada una con sus correspondientes equipos, ¿bastaría que el edificio1 este conectado a un unico switch de la Access layer y el edificio 2 esté  dividido en 2 switchs de la access layer, 1 para cada planta?
+
+   3. ¿En el enunciado, "CPD" se refiere a Centro de procesamiento de datos (Data Center), no?
+
+   4. ¿En el segundo punto del apartado "-  Red de comunicaciones XYZ", cuando pone que las redes de las 2 sedes deben estar interconectadas a través de un enlace privado contratado al operador ABC, con "las 2 sedes" se refiere a los 2 edificios de la red XYZ?
+
+   5. ¿Para el firewall que debe proteger a los servidores publicos del CPD, bastaría utilizar 1 router con las configuraciones correspondientes que tengan sentido?
+
+   6. La estructura de las redes de los 2 operadores nacionales a los que se conecta la red ABC puede ser una estructura parecida a la que he mencionado para la red XYZ o recomendarías algo diferente?
+
+   7. ¿Para representar Internet en CPT, deberíamos utilizar el item "Cloud-PT" de la sección "WAN Emulation", o deberíamos hacerlo de otra manera?
+
+Tengo mas dudas pero en este correo he intentado poner solo las que más tienen que ver con lo que he "avanzado" y mi intencion es escribir mas dudas en futuros correos
+para dividirlo un poco y avanzar paso a paso.
+
+Saludos,
+Adrián.
